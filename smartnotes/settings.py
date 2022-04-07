@@ -132,3 +132,6 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+#make a login redirect
+LOGIN_REDIRECT_URL = '/smart/notes'
+
