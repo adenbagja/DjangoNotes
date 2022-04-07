@@ -7,6 +7,7 @@
     <button type="submit" class="btn btn-primary my-5">Submit</button>
 </form>
 
+<!-- error for title name without django text  -->
 {% if form.errors %}
 <div class="alert alert-danger my-5">
     {{form.errors.title.as_text}}
